@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>dashmin - Alerts</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="dist/img/brand/icon.png">
+        <link rel="stylesheet" type="text/css" href="dist/css/main.css?v=2.0.0" />
+    </head>
+    <body class="bg-light">
+        <nav class="navbar navbar-expand navbar-dark bg-primary">
+            <a class="sidebar-toggle mr-3" href="#"><i class="fa fa-bars"></i></a>
+            <a class="navbar-brand" href="index.html">
+                <img class="navbar-icon d-inline-block align-top" src="dist/img/brand/icon.svg">
+                <span class="navbar-title">dashmin</span>
+            </a>
+            <div class="navbar-collapse collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" id="dd_user" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-user"></i> User Name</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dd_user">
+                            <a href="#" class="dropdown-item">Profile</a>
+                            <a href="login.html" class="dropdown-item">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="d-flex">
+            <div class="sidebar sidebar-dark bg-dark">
+                <ul class="list-unstyled">
+                    <li><a href="index.html"><i class="icon fa fa-home"></i> Home</a></li>
+                    <li><a href="forms.html"><i class="icon fa fa-edit"></i> Forms</a></li>
+                    <li class="active"><a href="alerts.html"><i class="icon fa fa-comment-alt"></i> Alerts</a></li>
+                    <li><a href="tables.html"><i class="icon fa fa-table"></i> Tables</a></li>
+                    <li><a href="login.html"><i class="icon fa fa-sign-in-alt"></i> Login</a></li>
+                    <li><a href="register.html"><i class="icon fa fa-user-plus"></i> Register</a></li>
+                </ul>
+            </div>
+            <div class="content p-4">
+                <h2 class="mb-4">Alerts</h2>
+                <div class="card mb-4">
+                    <div class="card-header bg-white font-weight-bold">
+                        Sweetalert
+                    </div>
+                    <div class="card-body">
+                        <button class="btn btn-success" onclick='swal ("Oops","Something went wrong!","error")'>Error Alert</button>
+                        <button class="btn btn-danger" onclick="confirmAlert();">Confirm Alert</button>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-header bg-white font-weight-bold">
+                        Toastr
+                    </div>
+                    <div class="card-body">
+                        <button class="btn btn-success" onclick="toastrSimple();">Simple Alert</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="dist/js/main.js?v=2.0.0"></script>
+        <script>
+            // Sweetalert
+            function confirmAlert() {
+                swal({
+                    title: "Are you sure?",
+                    text: "Once deleted, you will not be able to recover this imaginary file!",
+                    icon: "warning",
+                    buttons: true,
+                    dangerMode: true,
+                })
+                .then((willDelete) => {
+                    if (willDelete) {
+                        swal("Poof! Your imaginary file has been deleted!", {
+                        icon: "success",
+                        });
+                    } else {
+                        swal("Your imaginary file is safe!");
+                    }
+                });
+            }
+            // toastr
+            function toastrSimple() {
+                toastr["success"]("My name is Inigo Montoya. You killed my father. Prepare to die!");
+            }
+        </script>
+    </body>
+</html>

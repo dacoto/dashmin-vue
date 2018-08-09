@@ -70,7 +70,7 @@ body {
 .sidebar-dark ul ul a {
 	background: rgba(0, 0, 0, .15);
 }
-.sidebar-dark ul li a:hover, .sidebar-dark ul .active a {
+.sidebar-dark ul li a:hover, .sidebar-dark ul a.active {
 	color: rgba(255, 255, 255, 1);
 	background: rgba(0, 0, 0, .15);
 }
@@ -83,7 +83,7 @@ body {
 .sidebar-light ul ul a {
 	background: rgba(0, 0, 0, .05);
 }
-.sidebar-light ul li a:hover, .sidebar-light ul .active a {
+.sidebar-light ul li a:hover, .sidebar-light ul a.active {
 	color: rgba(0, 0, 0, 1);
 	background: rgba(0, 0, 0, .05);
 }
@@ -211,11 +211,6 @@ html,body {
 	height: 100%;
 }
 
-body.my-login-page {
-	background-color: #f7f9fb;
-	font-size: 14px;
-}
-
 .my-login-page .brand {
 	width: 90px;
 	height: 90px;
@@ -267,4 +262,13 @@ body.my-login-page {
 	margin: 40px 0;
 	color: #888;
 	text-align: center;
+}
+
+#nprogress .bar {
+	background: white;
+  }
+  
+#nprogress .spinner-icon {
+	border-top-color: white;
+	border-left-color: white;
 }

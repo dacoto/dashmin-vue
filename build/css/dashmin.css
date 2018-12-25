@@ -1,5 +1,5 @@
 /*!
- * dashmin v2.0.0 (https://github.com/dacoto/dashmin)
+ * dashmin v2.1.0 (https://github.com/dacoto/dashmin)
  * Copyright 2018 dacoto
  * Licensed under MIT (https://github.com/dacoto/dashmin/blob/master/LICENSE)
  */

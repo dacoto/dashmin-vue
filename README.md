@@ -3,24 +3,24 @@ Plantilla de dashboard y administración basada en bootstrap 4.x. con el framewo
 
 Contruida de manera ordenada y sencilla.
 
-![Image of dashmin](dist/img/brand/dashmin.gif?v=2.0.0)
+![Image of dashmin](dist/img/brand/dashmin.gif?v=2.1.0)
 
 Dependencias incluidas
 ----
 | Plugin | Documentación |
 | ------ | ------ |
-| fontawesome-free (v5.1.0) | <a href="https://fontawesome.com/" target="_blank">https://fontawesome.com/</a> |
-| bootstrap (v4.1.3) | <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a> |
+| fontawesome-free (v5.6.3) | <a href="https://fontawesome.com/" target="_blank">https://fontawesome.com/</a> |
+| bootstrap (v4.2.1) | <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a> |
 | icheck-bootstrap (v3.0.1) | <a href="https://bantikyan.github.io/icheck-bootstrap/" target="_blank">https://bantikyan.github.io/icheck-bootstrap/</a> |
 | jquery (v3.3.1) | <a href="https://jquery.com/" target="_blank">https://jquery.com/</a> |
 | list.js (v1.5.0) | <a href="http://listjs.com/" target="_blank">http://listjs.com/</a> |
 | nprogress (v10.2.0) | <a href="http://ricostacruz.com/nprogress/" target="_blank">http://ricostacruz.com/nprogress/</a> |
-| popper.js (v1.14.3) | <a href="https://popper.js.org/" target="_blank">https://popper.js.org/</a> |
+| popper.js (v1.14.6) | <a href="https://popper.js.org/" target="_blank">https://popper.js.org/</a> |
 | select2 (v4.0.5) | <a href="https://select2.org/" target="_blank">https://select2.org/</a> |
-| sweetalert (v2.1.0) | <a href="https://sweetalert.js.org/" target="_blank">https://sweetalert.js.org/</a> |
+| sweetalert (v2.1.2) | <a href="https://sweetalert.js.org/" target="_blank">https://sweetalert.js.org/</a> |
 | toastr (v2.1.4) | <a href="http://codeseven.github.io/toastr/" target="_blank">http://codeseven.github.io/toastr/</a> |
-| vue (v2.5.17) | <a href="https://vuejs.org/" target="_blank">https://vuejs.org/</a> |
-| vue-router (v3.0.1) | <a href="https://router.vuejs.org/" target="_blank">https://router.vuejs.org/</a> |
+| vue (v2.5.21) | <a href="https://vuejs.org/" target="_blank">https://vuejs.org/</a> |
+| vue-router (v3.0.2) | <a href="https://router.vuejs.org/" target="_blank">https://router.vuejs.org/</a> |
 
 Licencia
 ----

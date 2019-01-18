@@ -19,7 +19,7 @@ Dependencias incluidas
 | select2 (v4.0.5) | <a href="https://select2.org/" target="_blank">https://select2.org/</a> |
 | sweetalert (v2.1.2) | <a href="https://sweetalert.js.org/" target="_blank">https://sweetalert.js.org/</a> |
 | toastr (v2.1.4) | <a href="http://codeseven.github.io/toastr/" target="_blank">http://codeseven.github.io/toastr/</a> |
-| vue (v2.5.21) | <a href="https://vuejs.org/" target="_blank">https://vuejs.org/</a> |
+| vue (v2.5.22) | <a href="https://vuejs.org/" target="_blank">https://vuejs.org/</a> |
 | vue-router (v3.0.2) | <a href="https://router.vuejs.org/" target="_blank">https://router.vuejs.org/</a> |
 
 Licencia
@@ -28,7 +28,7 @@ MIT
 
 ```sh
 
-Copyright (c) 2018 dacoto-com
+Copyright (c) 2019 dacoto-com
 
 Se concede permiso, libre de cargos, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el "Software"), para utilizar el Software sin restricción, incluyendo sin limitación los derechos a usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar, y/o vender copias del Software, y a permitir a las personas a las que se les proporcione el Software a hacer lo mismo, sujeto a las siguientes condiciones:
 

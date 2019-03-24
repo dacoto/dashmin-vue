@@ -1,6 +1,6 @@
 {
     "name": "dashmin",
-    "version": "2.3.0",
+    "version": "1.3.0",
     "description": "Plantilla de dashboard y administración basada en bootstrap 4.x.",
     "repository": {
         "type": "git",

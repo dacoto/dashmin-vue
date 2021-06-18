@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="sidebar sidebar-dark bg-dark">
+    <div :class="{'toggled': $root.showSidebar}" class="sidebar sidebar-dark bg-dark">
       <ul class="list-unstyled">
         <li>
           <router-link class="nav-link" to="/"><i class="icon fa fa-home"></i> Home</router-link>

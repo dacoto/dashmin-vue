@@ -10,5 +10,10 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
-  render: h => h(App)
+  render: h => h(App),
+  data () {
+    return {
+      showSidebar: false
+    }
+  }
 }).$mount("#app")

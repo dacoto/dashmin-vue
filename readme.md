@@ -1,17 +1,40 @@
-![Image of dashmin](dist/img/brand/dashmin.gif)
-<h1 align="center">
-    Dashmin Vue | Bootstrap 4 & Vue.js SPA Dashboard
-    <br>
-    <a href="https://github.com/dacoto/dashmin-vue"><img src="https://img.shields.io/github/v/release/dacoto/dashmin-vue" alt="Latest Stable Version"></a>
-    <a href="https://github.com/dacoto/dashmin-vue"><img src="https://img.shields.io/github/license/dacoto/dashmin-vue" alt="License"></a>
-    <a href="https://github.com/dacoto/dashmin-vue"><img src="https://img.shields.io/github/last-commit/dacoto/dashmin-vue.svg" alt="Last commit"></a>
-</h1>
+![Image of dashmin](./src/assets/images/dashmin.gif)
+
+# Dashmin Vue | Bootstrap 4 & Vue.js SPA Dashboard
 
 Admin dashboard template based on Bootstrap 4.x. with Vue.js and with the SPA architecture.
 
-[VIEW DEMO](https://dashmin-vue.dacoto.dev/)
+### [VIEW DEMO](https://dashmin-vue.netlify.app)
 
-## Dependencies
+## Project setup
+
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+
+```
+yarn build
+```
+
+### Lints and fixes files
+
+```
+yarn lint
+```
+
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Dependencies
 
 |Package|Docs|
 |--- |--- |
@@ -28,6 +51,6 @@ Admin dashboard template based on Bootstrap 4.x. with Vue.js and with the SPA ar
 | vue | <a href="https://vuejs.org/" target="_blank">https://vuejs.org/</a> |
 | vue-router | <a href="https://router.vuejs.org/" target="_blank">https://router.vuejs.org/</a> |
 
-## License
+### License
 
 MIT

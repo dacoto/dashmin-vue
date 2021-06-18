@@ -1,51 +1,56 @@
 {
-    "name": "dashmin",
-    "version": "1.5.0",
-    "description": "Dashboard and administration template based on bootstrap 4.x.",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/dacoto/dashmin-vue.git"
+  "name": "dashmin-vue",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^4.6.0",
+    "core-js": "^3.6.5",
+    "icheck-bootstrap": "^3.0.1",
+    "jquery": "^3.6.0",
+    "list.js": "^2.3.1",
+    "nprogress": "^0.2.0",
+    "popper.js": "^1.16.1",
+    "select2": "^4.1.0-rc.0",
+    "sweetalert": "^2.1.2",
+    "toastr": "^2.1.4",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.35.1",
+    "sass-loader": "^10.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
     },
-    "keywords": [
-        "bootstrap",
-        "dashboard",
-        "jquery",
-        "admin",
-        "template",
-        "theme"
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
     ],
-    "author": "dacoto",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/dacoto/dashmin-vue/issues"
+    "parserOptions": {
+      "parser": "babel-eslint"
     },
-    "homepage": "https://github.com/dacoto/dashmin-vue#readme",
-    "scripts": {
-        "build": "webpack"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.13.0",
-        "bootstrap": "^4.5.0",
-        "icheck-bootstrap": "^3.0.1",
-        "jquery": "3.5.1",
-        "list.js": "1.5.0",
-        "nprogress": "^0.2.0",
-        "popper.js": "1.16.1",
-        "select2": "^4.0.13",
-        "sweetalert": "^2.1.2",
-        "toastr": "2.1.4",
-        "vue": "^2.6.11",
-        "vue-router": "^3.3.1"
-    },
-    "devDependencies": {
-        "css-loader": "^3.5.3",
-        "node-sass": "^4.14.1",
-        "sass-loader": "^8.0.2",
-        "style-loader": "^1.2.1",
-        "url-loader": "^4.1.0",
-        "vue-loader": "^15.9.2",
-        "vue-template-compiler": "^2.6.11",
-        "webpack": "^4.43.0",
-        "webpack-cli": "^3.3.11"
-    }
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }

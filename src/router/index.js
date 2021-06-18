@@ -20,12 +20,12 @@ const router = new VueRouter({
 
 router.beforeResolve((to, from, next) => {
   if (to.name) {
-    NProgress.start()
+    window.NProgress.start()
   }
   next()
 })
-router.afterEach((to, from) => {
-  NProgress.done()
+router.afterEach(() => {
+  window.NProgress.done()
 })
 
 export default router

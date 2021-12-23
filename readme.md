@@ -4,7 +4,7 @@
 
 Admin dashboard template based on Bootstrap 4.x. with Vue.js and with the SPA architecture.
 
-### [VIEW DEMO](https://dashmin-vue.netlify.app)
+### [VIEW DEMO](https://dashmin-vue.vercel.app/)
 
 ## Project setup
 
